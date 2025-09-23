@@ -21,7 +21,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] Set Scroll end point to right above the Input boxes so there is not overlaping
 
 ## Video Walkthrough
 
