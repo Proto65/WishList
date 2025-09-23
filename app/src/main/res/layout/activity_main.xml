@@ -13,8 +13,8 @@
         android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/toolbar"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
         android:layout_marginBottom="200dp"/>
 
     <EditText
@@ -66,4 +66,31 @@
         android:layout_marginBottom="32dp"
         tools:layout_editor_absoluteX="173dp"
         tools:layout_editor_absoluteY="482dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:gravity="center"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:background="#C39828"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        android:text="WishList"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="17dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
