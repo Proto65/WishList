@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class WishListAdapter(private val items: List<WishList>) : RecyclerView.Adapter<WishListAdapter.ViewHolder>() {
+class WishListAdapter(private val items: MutableList<WishList>) : RecyclerView.Adapter<WishListAdapter.ViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context)
             .inflate(R.layout.wishlist_item, parent, false)
@@ -18,6 +18,12 @@ class WishListAdapter(private val items: List<WishList>) : RecyclerView.Adapter<
         holder.itemNameText.text = item.item
         holder.itemPriceText.text = item.price
         holder.itemUrlText.text = item.URL
+
+        holder.itemView.setOnLongClickListener {
+            items.removeAt(holder.adapterPosition)
+            notifyItemRemoved(holder.adapterPosition)
+            true
+        }
 
     }
 
