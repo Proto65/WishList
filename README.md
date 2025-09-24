@@ -27,6 +27,8 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
+https://imgur.com/EcvoZQR
+
 <img src='https://imgur.com/EcvoZQR' title='CS388 Project 2' width='1:40' alt='CS388 Project 2' />
 
 <!-- Replace this with whatever GIF tool you used! -->
