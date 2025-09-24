@@ -4,7 +4,7 @@ Submitted by: **Tayyab Nabeel**
 
 **Name of your app** is a wishlist app that helps the user keep track of what they want to buy.
 
-Time spent: **X** hours spent in total
+Time spent: **7** hours spent in total
 
 ## Required Features
 
@@ -21,28 +21,27 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [x] Set Scroll end point to right above the Input boxes so there is not overlaping
+* [x] Set Scroll end point to right above the Input boxes so there is no overlapping
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/EcvoZQR.gif' title='CS388 Project 2' width='1:40' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
+
 [ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Figuring out how to hide the post before the input boxes at the bottom.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2025] [Tayyab Nabeel]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
